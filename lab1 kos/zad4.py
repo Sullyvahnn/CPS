@@ -61,7 +61,7 @@ fc = 500
 A = 1
 
 signal = code(name)
-write("signal.wav", fpr, signal)
+write("../lab1/signal.wav", fpr, signal)
 # fig, axes = plt.subplots(nrows=8, ncols=2, sharex=False, sharey=False, figsize=(8, 8))
 # bits = np.split(signal, char_repr_length)
 # for i in range(8):
